@@ -1,0 +1,26 @@
+yaml
+
+title: "Academic Blacklist"
+description: "A project for postdocs: reviews of unethical academic supervisors and research labs."
+baseurl: "" # leave empty if the site is hosted as https://username.github.io/
+url: "https://username.github.io" # replace with your actual GitHub Pages URL
+
+theme: minima
+markdown: kramdown
+
+# Navigation plugins (optional for blog feed, SEO tags, etc.)
+# plugins:
+#   - jekyll-feed
+#   - jekyll-seo-tag
+
+# Exclude these files/folders from the site build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Markdown engine configuration
+kramdown:
+  input: GFM
+  
