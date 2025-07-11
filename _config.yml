@@ -2,8 +2,8 @@ yaml
 
 title: "Academic Blacklist"
 description: "A project for postdocs: reviews of unethical academic supervisors and research labs."
-baseurl: "" # leave empty if the site is hosted as https://username.github.io/
-url: "https://username.github.io" # replace with your actual GitHub Pages URL
+baseurl: "/WillBeRenamedLater_HA" # leave empty if the site is hosted as https://username.github.io/
+url: "https://cherepan.github.io" # replace with your actual GitHub Pages URL
 
 theme: minima
 markdown: kramdown
