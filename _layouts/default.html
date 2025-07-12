@@ -5,13 +5,12 @@
   <title>{{ page.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- подключаем кастомный стиль -->
   <link rel="stylesheet" href="{{ "/assets/css/custom.css" | relative_url }}">
 </head>
 <body>
   <header>
     <h1>{{ site.title }}</h1>
-    <hr>
+    <p><em>{{ site.description }}</em></p>
   </header>
 
   <main>
@@ -19,8 +18,8 @@
   </main>
 
   <footer>
-    <hr>
-    <p><small>Academic Blacklist — community project. Last updated: {{ site.time | date: "%Y-%m-%d" }}</small></p>
+    <p>Academic Blacklist — a community-driven project</p>
+    <p>Last updated: {{ site.time | date: "%Y-%m-%d" }}</p>
   </footer>
 </body>
 </html>
