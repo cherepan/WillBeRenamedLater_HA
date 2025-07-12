@@ -1,0 +1,36 @@
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  max-width: 800px;
+  margin: auto;
+  line-height: 1.6;
+  background-color: #fefefe;
+  color: #222;
+  padding: 1rem;
+}
+
+h1, h2, h3 {
+  color: #003366;
+  margin-top: 2rem;
+}
+
+a {
+  color: #006699;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 2rem 0;
+}
+
+code {
+  background-color: #f0f0f0;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-size: 90%;
+}

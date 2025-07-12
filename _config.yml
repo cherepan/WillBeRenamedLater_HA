@@ -4,8 +4,13 @@ description: "A project for postdocs: reviews of unethical academic supervisors 
 baseurl: "/WillBeRenamedLater_HA"
 url: "https://cherepan.github.io"
 
-theme: minima
 markdown: kramdown
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
 
 exclude:
   - Gemfile
