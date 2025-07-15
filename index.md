@@ -39,7 +39,10 @@ Supervisors known for respectful, fair, and supportive environments.
 
 Want to share your story — anonymously or openly?
 
-→ [How to submit a review](contribute)
+[Submit a review via Google Form](https://forms.gle/PdWYF8vFj7Ebo5HEA)
+
+All submissions are reviewed manually before publishing to ensure fairness and protect identities.
+
 
 ---
 
