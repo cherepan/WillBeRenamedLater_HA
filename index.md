@@ -20,13 +20,17 @@ The goal is to protect early-career researchers from toxic work environments and
 
 ## Blacklist — Problematic Supervisors
 
+- [Ivanka Trump](blacklist/Ivanka_Trump.md)
 - [john-smith](blacklist/john-smith.md)
 
 ---
 
 ## Whitelist — Positive Examples
 
+- [Ded Pikhto](whitelist/Ded_Pikhto.md)
+- [Kotik](whitelist/Kotik.md)
 - [Vladimir Cherepanov](whitelist/Vladimir_Cherepanov.md)
+- [Wolfgang Schmidt](whitelist/Wolfgang_Schmidt.md)
 - [xyz-zyx](whitelist/xyz-zyx.md)
 
 ---
