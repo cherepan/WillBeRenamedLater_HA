@@ -2,7 +2,7 @@
 
 ---
 layout: default
-title: "Academic Blacklist"
+title: "Honest Academia"
 ---
 
 # Academic Blacklist
