@@ -55,3 +55,10 @@ Your voice matters.
 ---
 
 **Note:** All reports are subject to moderation. We aim to ensure fairness, avoid defamation, and publish only in the interest of researcher well-being and public awareness.
+
+---
+
+<p style="text-align:center; font-size: 0.9em; color: #888;">
+  Academic Blacklist — a community-driven initiative.<br>
+  Last updated: {{ site.time | date: '%Y-%m-%d' }}
+</p>
