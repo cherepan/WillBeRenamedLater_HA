@@ -46,6 +46,7 @@ title: "{pi_name} ({institution})"
 
 
 
+
 def write_entry(entry):
 
     if len(entry) < 6 or not entry[1].strip():
