@@ -10,7 +10,7 @@ title: "About this project"
 
 #  About Academic Blacklist
 
-Academic Blacklist is a **community-driven platform** created to support **postdoctoral researchers**, PhD students, and early-career scientists in navigating the power imbalances of academia.
+Honest Academia is a **community-driven platform** created to support **postdoctoral researchers**, PhD students, and early-career scientists in navigating the power imbalances of academia.
 
 The idea is simple: we **share real experiences** — anonymously or openly — about academic supervisors, labs, and working conditions.
 
