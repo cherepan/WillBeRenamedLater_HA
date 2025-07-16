@@ -20,18 +20,14 @@ The goal is to protect early-career researchers from toxic work environments and
 
 ## Blacklist — Problematic Supervisors
 
-These are professors or labs reported for unethical or harmful behavior.
-
-- [Prof. John Smith (Imaginary University)](blacklist/john-smith.md)
-- *(More reports coming soon)*
+- [john-smith](blacklist/john-smith.md)
 
 ---
 
 ## Whitelist — Positive Examples
 
-Supervisors known for respectful, fair, and supportive environments.
-
-- [Dr. Alice Newton (GoodLab Institute)](whitelist/alice-newton.md)
+- [Vladimir Cherepanov](whitelist/Vladimir_Cherepanov.md)
+- [xyz-zyx](whitelist/xyz-zyx.md)
 
 ---
 
