@@ -31,13 +31,18 @@ The goal is to protect early-career researchers from toxic work environments and
 
 ---
 
-## Contribute
 
-Want to share your story — anonymously or openly?
+## ✍️ Submit a Review
 
-[Submit a review via Google Form](https://forms.gle/PdWYF8vFj7Ebo5HEA)
+<p align="center">
+  <a href="https://forms.gle/PdWYF8vFj7Ebo5HEA" style="font-size: 1.2em; padding: 0.6em 1.2em; background-color: #007acc; color: white; border-radius: 6px; text-decoration:none;">
+    📝 Submit Your Experience
+  </a>
+</p>
 
-All submissions are reviewed manually before publishing to ensure fairness and protect identities.
+We welcome anonymous or signed submissions from postdocs, PhD students, interns, and collaborators.
+Your voice matters.
+
 
 
 ---
