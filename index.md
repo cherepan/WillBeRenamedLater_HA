@@ -5,7 +5,7 @@ layout: default
 title: "Honest Academia"
 ---
 
-# Academic Blacklist
+# Honest Academia
 
 _A platform for postdocs and researchers to share experiences with academic supervisors — both positive and negative._
 
