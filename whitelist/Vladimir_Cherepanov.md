@@ -1,11 +1,19 @@
 ---
-title: "Vladimir Cherepanov"
-institution: "Hogwarts"
-position: "PhD sutdent 2018-2021"
-recommendation: "very very good, excteptionally magnificent, can't imagine any better"
-date: 7/16/2025 14:47:17
+layout: default
+title: "Vladimir Cherepanov (Hogwarts)"
 ---
 
-### Submission Summary
+## Vladimir Cherepanov — Positive Experience
 
-✅ Yes
+- **Institution:** Hogwarts
+- **Position:** PhD sutdent 2018-2021
+- **Period:** (see details in entry)
+
+### Experience
+
+Very very good, excteptionally magnificent, can't imagine any better
+
+### Recommendation
+
+**Would you recommend this PI/lab to others?**
+**✅ yes**

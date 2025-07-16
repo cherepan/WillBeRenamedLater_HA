@@ -18,18 +18,32 @@ def slugify(name):
 
 
 def make_markdown(timestamp, pi_name, institution, position, recommendation, experience):
+    sentiment = "Positive" if "yes" in recommendation.lower() else "Negative"
+    rec_header = "Recommendation"
+    rec_text = "**Would you recommend this PI/lab to others?**\n**" + recommendation.strip().capitalize() + "**"
+
     return f"""---
-title: "{pi_name}"
-institution: "{institution}"
-position: "{position}"
-recommendation: "{recommendation}"
-date: {timestamp}
+layout: default
+title: "{pi_name} ({institution})"
 ---
 
-### Submission Summary
+## {pi_name} — {sentiment} Experience
+
+- **Institution:** {institution}
+- **Position:** {position}
+- **Period:** (see details in entry)
+
+### Experience
 
 {experience.strip()}
+
+### {rec_header}
+
+{rec_text}
 """
+
+
+
 
 
 def write_entry(entry):
@@ -42,9 +56,17 @@ def write_entry(entry):
     pi_name       = entry[1].strip()
     institution   = entry[2].strip()
     position      = entry[3].strip()
-    recommendation = entry[4].strip().lower()
-    experience    = entry[5].strip()
+    recommendation = entry[5].strip().lower()
+    experience    = entry[4].strip()
 
+
+    print('-----  timestamp  ',timestamp )
+
+    print('----- pi_name  ', pi_name )
+    print('----- institution  ',institution )
+    print('----- position  ', position)
+    print('-----  recommendation ', recommendation)
+    print('-----  experience ', experience)
     content = make_markdown(timestamp, pi_name, institution, position, recommendation, experience)
     filename = slugify(pi_name) + ".md"
 
