@@ -29,6 +29,3 @@ The lab functions as a publication machine with no regard for well-being.
 **Would you recommend this PI/lab to others?**  
 ** No. Strongly advise against.**
 ---
-layout: default
-title: "Prof. John Smith (Hogwarts)"
----
