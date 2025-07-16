@@ -47,14 +47,11 @@ Your voice matters.
 
 ---
 
-## Learn More
+## 📖 Learn More
 
-- [About this project](about)
-- [Why it matters](about#why)
-
----
-
-**Note:** All reports are subject to moderation. We aim to ensure fairness, avoid defamation, and publish only in the interest of researcher well-being and public awareness.
+- 🔍 [About this project](about)
+- ❓ [Why it matters](about#why)
+- 💬 [Frequently Asked Questions](about#faq)
 
 ---
 
