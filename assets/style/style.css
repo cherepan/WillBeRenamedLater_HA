@@ -1,0 +1,28 @@
+.professor-block {
+  border: 1px solid #ccc;
+  padding: 1em;
+  margin-bottom: 2em;
+  border-radius: 8px;
+  background: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.review-list {
+  padding-left: 1em;
+}
+
+.review-list p {
+  margin: 0.5em 0;
+}
+
+select#sort-mode {
+  margin: 1em 0;
+  padding: 0.3em;
+  font-size: 1em;
+}
+
+canvas {
+  max-width: 100%;
+  height: auto;
+  margin-top: 1em;
+}

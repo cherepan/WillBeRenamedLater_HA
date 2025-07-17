@@ -22,7 +22,6 @@ function groupByProfessor(data) {
   return grouped;
 }
 
-
 let globalGrouped = {};
 
 function sortAndRender(criteria = "total") {
@@ -45,8 +44,11 @@ function sortAndRender(criteria = "total") {
   for (const [name, info] of entries) {
     const block = document.createElement("div");
     block.className = "professor-block";
+    const chartId = `chart-${name.replace(/\s+/g, '_')}`;
+
     block.innerHTML = `
       <h3>${name} — ${info.institution}</h3>
+      <canvas id="${chartId}" width="400" height="200"></canvas>
       <p>Reviews: ${info.total} (✅ ${info.positive} / ❌ ${info.negative})</p>
       <button onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none'">Show/Hide Reviews</button>
       <div class="review-list" style="display: none;">
@@ -54,14 +56,41 @@ function sortAndRender(criteria = "total") {
       </div>
     `;
     container.appendChild(block);
+
+    const ratings = [1, 2, 3, 4, 5].map(score =>
+      info.reviews.filter(r => r.rating === score).length
+    );
+
+    new Chart(document.getElementById(chartId), {
+      type: 'bar',
+      data: {
+        labels: ['1', '2', '3', '4', '5'],
+        datasets: [{
+          label: 'Number of ratings',
+          data: ratings,
+          backgroundColor: 'rgba(0, 123, 255, 0.6)',
+          borderColor: 'rgba(0, 123, 255, 1)',
+          borderWidth: 1
+        }]
+      },
+      options: {
+        plugins: { legend: { display: false } },
+        scales: {
+          y: {
+            beginAtZero: true,
+            ticks: { precision: 0 }
+          }
+        }
+      }
+    });
   }
 }
-
 
 async function loadStats() {
   const res = await fetch("assets/data/reviews.json");
   const data = await res.json();
-  const grouped = groupByProfessor(data);
+  globalGrouped = groupByProfessor(data);
+
   const controls = document.createElement("div");
   controls.innerHTML = `
     <label>Sort by:</label>
@@ -78,6 +107,5 @@ async function loadStats() {
 
   sortAndRender(); // default
 }
-
 
 loadStats();
