@@ -47,7 +47,7 @@ function sortAndRender(criteria = "total") {
     const chartId = `chart-${name.replace(/\s+/g, '_')}`;
 
     block.innerHTML = `
-      <h3>${name} — ${info.institution}</h3>
+      <h3>${name} — ${info.institution} <span style="font-weight: normal; color: gray;">(${info.total} review${info.total > 1 ? 's' : ''})</span></h3>
       <canvas id="${chartId}" width="400" height="200"></canvas>
       <p>Reviews: ${info.total} (✅ ${info.positive} / ❌ ${info.negative})</p>
       <button onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none'">Show/Hide Reviews</button>
