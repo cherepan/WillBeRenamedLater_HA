@@ -1,0 +1,52 @@
+[
+  {
+    "id": "8e4bf4a5",
+    "date": "2025-07-16",
+    "professor": "Vladimir Cherepanov",
+    "institution": "Hogwarts",
+    "position": "PhD sutdent 2018-2021",
+    "text": "Very very good, excteptionally magnificent, can't imagine any better",
+    "rating": 5,
+    "email": ""
+  },
+  {
+    "id": "b5d9a154",
+    "date": "2025-07-16",
+    "professor": "Ded Pikhto",
+    "institution": "CERN",
+    "position": "PhD 1970",
+    "text": "Bad ded",
+    "rating": 1,
+    "email": "Nope"
+  },
+  {
+    "id": "0ee57bbe",
+    "date": "2025-07-16",
+    "professor": "Wolfgang Schmidt",
+    "institution": "Who knows",
+    "position": "slave 1019-1070",
+    "text": "Polka dot pattern",
+    "rating": 5,
+    "email": "no@no.no"
+  },
+  {
+    "id": "f2c31de0",
+    "date": "2025-07-16",
+    "professor": "Ivanka Trump",
+    "institution": "USA",
+    "position": "Postdoc 1-2-3",
+    "text": "Underwhelming",
+    "rating": 3,
+    "email": "IvanPetrov@kgb.com"
+  },
+  {
+    "id": "2796d49e",
+    "date": "2025-07-16",
+    "professor": "Kotik",
+    "institution": "Kotik",
+    "position": "Kotik 2019-2020",
+    "text": "Miaoo",
+    "rating": 5,
+    "email": "kotik@kotik.com"
+  }
+]
