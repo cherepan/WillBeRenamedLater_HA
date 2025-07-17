@@ -1,6 +1,6 @@
 [
   {
-    "id": "8e4bf4a5",
+    "id": "567c7328",
     "date": "2025-07-16",
     "professor": "Vladimir Cherepanov",
     "institution": "Hogwarts",
@@ -10,7 +10,7 @@
     "email": ""
   },
   {
-    "id": "b5d9a154",
+    "id": "f67437c3",
     "date": "2025-07-16",
     "professor": "Ded Pikhto",
     "institution": "CERN",
@@ -20,7 +20,7 @@
     "email": "Nope"
   },
   {
-    "id": "0ee57bbe",
+    "id": "f26b40ee",
     "date": "2025-07-16",
     "professor": "Wolfgang Schmidt",
     "institution": "Who knows",
@@ -30,7 +30,7 @@
     "email": "no@no.no"
   },
   {
-    "id": "f2c31de0",
+    "id": "d3d68fcd",
     "date": "2025-07-16",
     "professor": "Ivanka Trump",
     "institution": "USA",
@@ -40,7 +40,7 @@
     "email": "IvanPetrov@kgb.com"
   },
   {
-    "id": "2796d49e",
+    "id": "c446392b",
     "date": "2025-07-16",
     "professor": "Kotik",
     "institution": "Kotik",
@@ -48,5 +48,65 @@
     "text": "Miaoo",
     "rating": 5,
     "email": "kotik@kotik.com"
+  },
+  {
+    "id": "0e94029a",
+    "date": "2025-07-16",
+    "professor": "Alex Toldaiev",
+    "institution": "Nobody knows",
+    "position": "2915-2917",
+    "text": "Ah - ah -ah",
+    "rating": 3,
+    "email": ""
+  },
+  {
+    "id": "74340fcc",
+    "date": "2025-07-17",
+    "professor": "Ded Pikhto",
+    "institution": "CERN",
+    "position": "PostDoc",
+    "text": "Good Ded",
+    "rating": 5,
+    "email": ""
+  },
+  {
+    "id": "32cea50b",
+    "date": "2025-07-17",
+    "professor": "Ded Pikhto",
+    "institution": "CERN",
+    "position": "PhD",
+    "text": "Very good ded",
+    "rating": 5,
+    "email": ""
+  },
+  {
+    "id": "b70a2f7f",
+    "date": "2025-07-17",
+    "professor": "Ded Pikhto",
+    "institution": "CERN",
+    "position": "PostDoc",
+    "text": "Tres bon ded",
+    "rating": 5,
+    "email": ""
+  },
+  {
+    "id": "ec4d106b",
+    "date": "2025-07-17",
+    "professor": "Ded Pikhto",
+    "institution": "CERN",
+    "position": "Student",
+    "text": "Neutral Ded",
+    "rating": 3,
+    "email": ""
+  },
+  {
+    "id": "89ef025b",
+    "date": "2025-07-17",
+    "professor": "Ded Pikhto",
+    "institution": "CERN",
+    "position": "Summer Student",
+    "text": "So so",
+    "rating": 1,
+    "email": ""
   }
 ]
