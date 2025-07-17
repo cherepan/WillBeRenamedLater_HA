@@ -108,5 +108,49 @@
     "text": "So so",
     "rating": 1,
     "email": ""
-  }
+  },
+
+  { "id": "a1", "date": "2025-07-16", "professor": "Alice Newton", "institution": "MIT", "position": "PhD student 2019–2024", "text": "Supportive mentor, helped me grow as a researcher.", "rating": 5, "email": "" },
+  { "id": "a2", "date": "2025-07-16", "professor": "Alice Newton", "institution": "MIT", "position": "PostDoc 2024", "text": "Always had my back, even in conflicts with others.", "rating": 5, "email": "" },
+  { "id": "a3", "date": "2025-07-16", "professor": "Alice Newton", "institution": "MIT", "position": "PhD student", "text": "Too perfectionist sometimes, but very ethical.", "rating": 4, "email": "" },
+
+  { "id": "b1", "date": "2025-07-16", "professor": "Bob Schrader", "institution": "ETH Zurich", "position": "PostDoc 2021–2023", "text": "Micromanages everything. No space to breathe.", "rating": 2, "email": "" },
+  { "id": "b2", "date": "2025-07-16", "professor": "Bob Schrader", "institution": "ETH Zurich", "position": "PhD 2015–2021", "text": "Aggressive in meetings, often shouts.", "rating": 1, "email": "" },
+  { "id": "b3", "date": "2025-07-16", "professor": "Bob Schrader", "institution": "ETH Zurich", "position": "Intern", "text": "I cried after his comments more than once.", "rating": 1, "email": "" },
+  { "id": "b4", "date": "2025-07-16", "professor": "Bob Schrader", "institution": "ETH Zurich", "position": "PhD", "text": "No feedback, delays everything by months.", "rating": 2, "email": "" },
+
+  { "id": "c1", "date": "2025-07-16", "professor": "Catherine Li", "institution": "Oxford", "position": "PhD student 2017–2022", "text": "Great supervisor, but extremely busy.", "rating": 4, "email": "" },
+  { "id": "c2", "date": "2025-07-16", "professor": "Catherine Li", "institution": "Oxford", "position": "PostDoc", "text": "Treated me like a peer — refreshing!", "rating": 5, "email": "" },
+  { "id": "c3", "date": "2025-07-16", "professor": "Catherine Li", "institution": "Oxford", "position": "PhD", "text": "Good guidance, though not much time.", "rating": 4, "email": "" },
+
+  { "id": "d1", "date": "2025-07-16", "professor": "Daniel Kim", "institution": "Harvard", "position": "PhD 2020–", "text": "Toxic. Blames students for his own failures.", "rating": 1, "email": "" },
+  { "id": "d2", "date": "2025-07-16", "professor": "Daniel Kim", "institution": "Harvard", "position": "PostDoc", "text": "Doesn't respond to messages for weeks.", "rating": 2, "email": "" },
+  { "id": "d3", "date": "2025-07-16", "professor": "Daniel Kim", "institution": "Harvard", "position": "PhD", "text": "Only praises first authorship, ignores rest.", "rating": 2, "email": "" },
+  { "id": "d4", "date": "2025-07-16", "professor": "Daniel Kim", "institution": "Harvard", "position": "PhD", "text": "Not a safe environment at all.", "rating": 1, "email": "" },
+
+  { "id": "e1", "date": "2025-07-16", "professor": "Elena Petrova", "institution": "Moscow State", "position": "PhD student", "text": "Very warm, very present. Amazing person.", "rating": 5, "email": "" },
+  { "id": "e2", "date": "2025-07-16", "professor": "Elena Petrova", "institution": "Moscow State", "position": "Master’s", "text": "Knows her field well, always explains.", "rating": 5, "email": "" },
+  { "id": "e3", "date": "2025-07-16", "professor": "Elena Petrova", "institution": "Moscow State", "position": "PostDoc", "text": "Could be more demanding, but very kind.", "rating": 4, "email": "" },
+
+  { "id": "f1", "date": "2025-07-16", "professor": "Faisal Ahmed", "institution": "KAUST", "position": "PhD", "text": "Smart, but very condescending.", "rating": 2, "email": "" },
+  { "id": "f2", "date": "2025-07-16", "professor": "Faisal Ahmed", "institution": "KAUST", "position": "PhD", "text": "Refused to sign visa forms.", "rating": 1, "email": "" },
+  { "id": "f3", "date": "2025-07-16", "professor": "Faisal Ahmed", "institution": "KAUST", "position": "Intern", "text": "Taught me a lot, but very strict.", "rating": 3, "email": "" },
+
+  { "id": "g1", "date": "2025-07-16", "professor": "Grace Tanaka", "institution": "Kyoto University", "position": "PhD", "text": "Calm and steady mentorship. Learned a lot.", "rating": 5, "email": "" },
+  { "id": "g2", "date": "2025-07-16", "professor": "Grace Tanaka", "institution": "Kyoto University", "position": "PhD", "text": "Helpful in funding, patient with drafts.", "rating": 5, "email": "" },
+  { "id": "g3", "date": "2025-07-16", "professor": "Grace Tanaka", "institution": "Kyoto University", "position": "PostDoc", "text": "Mentoring style was structured, but kind.", "rating": 5, "email": "" },
+  { "id": "g4", "date": "2025-07-16", "professor": "Grace Tanaka", "institution": "Kyoto University", "position": "PhD", "text": "Hard to schedule, but generous.", "rating": 4, "email": "" },
+
+  { "id": "h1", "date": "2025-07-16", "professor": "Henrik Müller", "institution": "Heidelberg", "position": "PhD", "text": "All about metrics. Doesn't care for people.", "rating": 1, "email": "" },
+  { "id": "h2", "date": "2025-07-16", "professor": "Henrik Müller", "institution": "Heidelberg", "position": "PostDoc", "text": "Wants 60 hours a week, minimum.", "rating": 1, "email": "" },
+  { "id": "h3", "date": "2025-07-16", "professor": "Henrik Müller", "institution": "Heidelberg", "position": "PhD", "text": "No empathy, only grants.", "rating": 1, "email": "" },
+
+  { "id": "i1", "date": "2025-07-16", "professor": "Isabelle Dubois", "institution": "Sorbonne", "position": "PhD", "text": "Organized, direct, and no nonsense.", "rating": 4, "email": "" },
+  { "id": "i2", "date": "2025-07-16", "professor": "Isabelle Dubois", "institution": "Sorbonne", "position": "PhD", "text": "Efficient and productive lab.", "rating": 4, "email": "" },
+  { "id": "i3", "date": "2025-07-16", "professor": "Isabelle Dubois", "institution": "Sorbonne", "position": "PhD", "text": "Little time for 1:1 mentoring.", "rating": 3, "email": "" },
+
+  { "id": "j1", "date": "2025-07-16", "professor": "Jorge Ramirez", "institution": "UNAM", "position": "PhD", "text": "Excellent motivator and group leader.", "rating": 5, "email": "" },
+  { "id": "j2", "date": "2025-07-16", "professor": "Jorge Ramirez", "institution": "UNAM", "position": "Master’s", "text": "Tough but fair. Honest feedback.", "rating": 4, "email": "" },
+  { "id": "j3", "date": "2025-07-16", "professor": "Jorge Ramirez", "institution": "UNAM", "position": "PhD", "text": "Hard to deal with if you fall behind.", "rating": 3, "email": "" },
+  { "id": "j4", "date": "2025-07-16", "professor": "Jorge Ramirez", "institution": "UNAM", "position": "PhD", "text": "Good guidance, great lab culture.", "rating": 5, "email": "" }    
 ]
