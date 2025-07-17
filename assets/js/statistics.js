@@ -22,11 +22,27 @@ function groupByProfessor(data) {
   return grouped;
 }
 
-function renderDirectory(grouped) {
+
+let globalGrouped = {};
+
+function sortAndRender(criteria = "total") {
   const container = document.getElementById("directory");
   container.innerHTML = "";
 
-  for (const [name, info] of Object.entries(grouped)) {
+  const entries = Object.entries(globalGrouped);
+
+  entries.sort((a, b) => {
+    const A = a[1], B = b[1];
+    if (criteria === "total") return B.total - A.total;
+    if (criteria === "negative") {
+      const an = A.negative / A.total || 0;
+      const bn = B.negative / B.total || 0;
+      return bn - an;
+    }
+    return 0;
+  });
+
+  for (const [name, info] of entries) {
     const block = document.createElement("div");
     block.className = "professor-block";
     block.innerHTML = `
@@ -41,11 +57,27 @@ function renderDirectory(grouped) {
   }
 }
 
+
 async function loadStats() {
   const res = await fetch("assets/data/reviews.json");
   const data = await res.json();
   const grouped = groupByProfessor(data);
-  renderDirectory(grouped);
+  const controls = document.createElement("div");
+  controls.innerHTML = `
+    <label>Sort by:</label>
+    <select id="sort-mode">
+      <option value="total">Total reviews</option>
+      <option value="negative">% Negative</option>
+    </select>
+  `;
+  document.getElementById("directory").before(controls);
+
+  document.getElementById("sort-mode").addEventListener("change", (e) => {
+    sortAndRender(e.target.value);
+  });
+
+  sortAndRender(); // default
 }
+
 
 loadStats();
